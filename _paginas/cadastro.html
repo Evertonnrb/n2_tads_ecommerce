@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../_css/estilos.css">
+    <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tudo">
+        <div class="topo">
+            <h1>Tudo Cor</h1>
+            <!--menu-->
+            <ul class="navegacao">
+            <li><a href="../index.html">Home</a></li>
+            <li> <a href="#">Produtos</a> </li>
+            <li> <a href="quemsomos.html"> Quem somos </a> </li>
+            <li> <a href="contato.html"> Contato </a> </li>        
+            </ul>
+            <!--buscar-->
+            <div class="b">
+                <form action="" method="get" id="busca">
+                <label for="busca">Buscar <input type="text" name="busca" id="busca"> </label>
+                <input type="submit" value="ok" id="submit/">
+                <li> <a href="#">Logar</a> </li>
+                <li> <a href="#">Carrinho</a> </li>
+                </form>
+            </div>
+        </div>
+        <div id="auxFormulario">
+            <!--Formulario de cadastro de clientes-->
+            <div class="formulario">
+                <form action="#" method="post" id="frm" name="frm">
+                    <label for="txtNome">Nome:</label>
+                    <input type="text" class="bradius txt" name="txtNome" id="txtNome" placeholder="Seu nome" maxlength="30" required>
+                    <label for="txtSobrenome">Sobrenome:</label>
+                    <input type="text" class="bradius txt" name="txtSobrenome" id="txtSobrenome" placeholder="Seu sobrenome" maxlength="30" required>
+                    <label for="txtEmail">Email</label>
+                    <input type="email" class="bradius txt" name="txtEmail" id="txtEmail" placeholder="Seu melhor email" maxlength="30" required>
+                    <label for="txtSenha">Uma senha:</label>
+                    <input type="password" class="bradius txt" name="txtSenha" id="txtSenha" maxlength="32" placeholder="******" required>
+                    <label for="txtSenha2">Digite novamente a senha</label>
+                    <input type="password" class="bradius txt" name="txtSenha2" id="txtSenha2" maxlength="32" placeholder="******" required>
+                    <label for="txtTelefone">Celular:</label>
+                    <input type="tel" class="bradius txt" name="txtTelefone" id="txtTelefone" maxlength="12" placeholder="(99)9999-99999"> 
+                    <div id="endereco">
+                        <label for="txtCep">CEP:</label>
+                        <input type="text" class="bradius txt" name="txtCep" id="txtCep" placeholder="CEP">
+                        <label for="txtcidade">Cidade:</label>
+                        <input type="text" class="bradius txt" id="txtcidade" name="txtcidade" readonly placeholder="Sua cidade">
+                        <label for="txtEstado">Estado:</label>
+                        <input type="text" class="bradius txt" id="txtEstado" name="txtEstado" readonly placeholder="Seu Estado">
+                        <label for="txtLagradouro">Lagradouro</label>
+                        <input type="text" class="bradius txt" id="txtLagradouro" name="txtLagradouro"  maxlength="50" required placeholder="rua, lagradouro">
+                        <label for="txtNumero">Numero:</label>
+                        <input type="text" class="bradius txt" id="txtNumero" name="txtNumero" maxlength="10" size="10" placeholder="Número">
+                    </div>
+                    <div id="bts">
+                        <input type="reset" id="btnLimpar" class="btn" value="Limpar">
+                        <input type="submit" id="btnEnviar" class="btn" value="Casdastrar" onsubmit="">
+                    </div>    
+                </form>
+            </div>
+        </div>
+        <div class="rodape">
+            <div class="info">
+                <p>Everton Ribeiro</p>
+                <p>3425746757 - TADS N51</p>
+                </div>
+            </div>
+            <div class="social">
+				<a href="https://twitter.com" title="Follow  on Twitter" class="twitter"><img src="../_img/_social/twitter.png"></a>
+				<a href="https://www.facebook.com/caelumbr" title="Like  on Facebook" class="facebook"><img src="../_img/_social/facebook.png"></a>
+				<a href="https://plus.google.com/" title="Follow us on goole+"><img src="../_img/_social/googleplus.png"></a>
+				<a href="https://www.youtube.com" title="Subiscribe on youtube"><img src="../_img/_social/youtube.png"></a>
+			</div>
+        </div>
+                
+</body>
+</html>

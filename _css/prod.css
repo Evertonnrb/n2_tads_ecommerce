@@ -1,0 +1,20 @@
+/*produtos*/
+.vitrine h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    width: 500px;
+    display: inline;
+}
+.produto{
+    display: inline-block;
+    margin: 20px 80px 50px 50px;
+    width: 80px;
+    widows: 80px;
+    text-align: center;
+}
+.produto p{
+    font: 12px/1.4 Verdana,Arial,Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:center;
+
+}
